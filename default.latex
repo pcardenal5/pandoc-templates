@@ -251,6 +251,8 @@ $if(verbatim-in-note)$
 \usepackage{fancyvrb}
 $endif$
 \usepackage{xcolor}
+\usepackage{geometry}
+\geometry{a4paper,total={170mm,257mm},left=20mm,top=20mm,}
 $if(geometry)$
 $if(beamer)$
 \geometry{$for(geometry)$$geometry$$sep$,$endfor$}
